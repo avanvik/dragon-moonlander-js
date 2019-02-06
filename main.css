@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans:100,400,700');
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: "IBM Plex Mono", monospace
+}
+
+#container {
+	position: absolute;
+	top: 20px;
+	bottom: 50px;
+	left: 20px;
+	right: 20px;
+	border: 4px solid black;
+}
+
+.helptext {
+	display: block;
+	text-align: center;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	right: 0px;
+}
+
 #rocket {
   height: 60px;
   width: 50px;
@@ -32,14 +59,4 @@
 .thrust-flame--l {
   left: 1px;
   transform: rotate(10deg);
-}
-
-#container {
-	position: absolute;
-	top: 0;
-	bottom: 50px;
-	left: 20px;
-	right: 20px;
-  margin: 40px auto;
-  border: 4px solid black;
 }
