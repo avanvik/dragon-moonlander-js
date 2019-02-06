@@ -25,6 +25,10 @@ body, html {
 	right: 0px;
 }
 
+.helptext h1 {
+	margin: 0 0 10px;
+}
+
 #rocket {
   height: 60px;
   width: 50px;
