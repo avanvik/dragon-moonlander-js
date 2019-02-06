@@ -1,0 +1,45 @@
+#rocket {
+  height: 60px;
+  width: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url(dragon.png);
+  background-size: cover;
+  background-position: -0px 0
+}
+
+.thrust-flame {
+  background: orange;
+  position: absolute;
+  top: 40px;
+  height: 0px;
+  width: 6px;
+  border-radius: 100%;
+  transition: 0.2s;
+}
+
+.thrusting .thrust-flame {
+  height: 20px;
+  transition: 0.02s;
+}
+
+.thrust-flame--r {
+  right: 1px;
+  transform: rotate(-10deg);
+}
+
+.thrust-flame--l {
+  left: 1px;
+  transform: rotate(10deg);
+}
+
+#container {
+	position: absolute;
+	top: 0;
+	bottom: 50px;
+	left: 20px;
+	right: 20px;
+  margin: 40px auto;
+  border: 4px solid black;
+}
