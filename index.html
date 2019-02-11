@@ -5,20 +5,27 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>JS Moonlander</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css?v=0" />
 </head>
 <body>
+
 	<div class="helptext">
 		<h1>JS Moonlander</h1>
-		<span>Use arrow keys to steer ship</span>
+		<span>Use arrow keys or touch controls to steer ship</span>
 	</div>
+
 	<div id="container">
 		<div id="rocket" class="thrusting">
-			<div class="thrust-flame thrust-flame--l"></div>
-			<div class="thrust-flame thrust-flame--r"></div>
+			<div class="thrust-flame" id="thrust-flame--l"></div>
+			<div class="thrust-flame" id="thrust-flame--r"></div>
 		</div>
 	</div>
-	
-	<script src="main.js"></script>
+
+	<div id="control-pad">
+		<div class="control-pad-line" id="line-h"></div>
+		<div class="control-pad-line" id="line-v"></div>
+	</div>
+
+	<script src="main.js?v=2"></script>
 </body>
 </html>
